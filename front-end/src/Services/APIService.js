@@ -1,12 +1,11 @@
 
-
 const url = "https://reactjs.org/docs/forms.html"
 
 
-const AuthApiService = {
+export const AuthApiService = {
   //Create a new user
   createUser(user){
-    return fetch(`${url}/users`, {
+    return fetch("http://localhost:3000/api/v1/users", {
       method:'POST',
       headers : {
         'content-type' : 'application/json'
@@ -21,7 +20,7 @@ const AuthApiService = {
   },
   //Login as a user
   postLogin({username, password}) {
-    return fetch(`${url}/auth/login`, {
+    return fetch("http://localhost:3000/api/v1/users", {
       method:'POST',
       headers: {
         'content-type' : 'application/json',

@@ -1,4 +1,5 @@
 import React from 'react';
+import { AuthApiService } from '../../Services/APIService';
 class Login extends React.Component {
 
     constructor() {
@@ -31,11 +32,17 @@ class Login extends React.Component {
     handleOnSubmit = (event) => {
         // this.loginUser();
         event.preventDefault();
+
+        AuthApiService.postLogin({
+            username: this.state.username,
+            password: this.state.password
+        })
+        .then(user => console.log(user))
     }
 
     render() {
         return (
-            <form>
+            <form onSubmit={this.handleOnSubmit}>
                 <label>
                     Username: <input type="text" name="username" value={this.state.username} onChange={this.handleOnChange}/>
                 </label>
