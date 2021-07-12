@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
-import AuthApiService from '../../Services/APIService'
+import React, { Component } from 'react';
+import { AuthApiService } from '../../Services/APIService';
+
 export default class Signup extends Component {
   constructor(){
     super()
@@ -7,6 +8,7 @@ export default class Signup extends Component {
       fullname: "",
       username: "",
       password:"",
+      wallet: 0,
       error: null
     }
   }
@@ -22,6 +24,7 @@ export default class Signup extends Component {
 
   handleSubmit = async event => {
     event.preventDefault();
+    
     const {fullname, username, password} = event.target;
     
     if(fullname.length === 0 || username.length === 0) {
@@ -51,11 +54,7 @@ export default class Signup extends Component {
       username: username.value,
       password: password.value
     })
-    .then(user => {
-      fullname.value = '';
-      username.value = '';
-      password.value = '';
-    })
+    .then(user => console.log(user))
     .catch(res => {
       this.setState({
         error: res.error
@@ -75,14 +74,14 @@ export default class Signup extends Component {
         <div className="box">
           <form className="register-form" onSubmit={this.handleSubmit}>
 
-            <label className="label"> Full Name: </label>
+            <label > Full Name: </label>
             <input value={this.state.fullname} type="text" name="fullname" className="landing-form-text" placeholder="Full Name" onChange={this.onChange}/>
 
 
-            <label className="label"> Username: </label>
+            <label > Username: </label>
             <input value={this.state.username} type="text" name="username"placeholder="youremail@email.com" className="landing-form-text" onChange={this.onChange}/>
 
-            <label className="label"> Password: </label>
+            <label> Password: </label>
             <input value={this.state.password} type="password" name="password" className="landing-form-text" onChange={this.onChange}/>
 
             <button className="btn" type="submit"> Submit </button>
