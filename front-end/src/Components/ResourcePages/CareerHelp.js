@@ -24,7 +24,7 @@ export default class CareerHelp extends Component {
           </p>
           <p>
             <b>These are excellent opportunities</b> to introduce your child to finance-related jobs.
-            <a href="https://www.udemy.com/course/programming-for-kids-how-to-make-coding-fun/" target="_blank"> Learn More...</a>
+            <a href="https://www.bankaroo.com/8-finance-related-careers-kids-should-know-about/" target="_blank"> Learn More...</a>
           </p>
         </div>
 
@@ -48,7 +48,7 @@ export default class CareerHelp extends Component {
           </p>
           <p>
             <b>What you will learn</b> Personal branding for excellence.
-            <a href="https://www.udemy.com/course/programming-for-kids-how-to-make-coding-fun/" target="_blank"> Learn More...</a>
+            <a href="https://www.udemy.com/course/learn-skills-for-personal-branding/" target="_blank"> Learn More...</a>
           </p>
         </div>
         
