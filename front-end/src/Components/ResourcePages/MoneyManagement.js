@@ -18,7 +18,7 @@ export default class MoneyManagement extends Component {
 
         <section className="article-container">
           <h2> Five Rules to Improve Your Financial Health </h2>
-          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fby50journey.com%2Fimprove-your-finances-in-5-steps%2F&psig=AOvVaw1HCSFPYkE-FUypi1cAfCkG&ust=1626209477793000&source=images&cd=vfe&ved=0CAoQjRxqFwoTCIDkycW03vECFQAAAAAdAAAAABAD" alt="finance image"/> 
+          <img src="d" alt="finance image"/> 
           <div className="main-text">
             <p> 
               The term “personal finance” refers to how you manage your money and plan for your future. All of your financial decisions and activities have an effect on your financial health. We are often guided by specific rules of thumb, such as “don’t buy a house that costs more than two-and-a-half years’ worth of income” or “you should always save at least 10% of your income toward retirement.”
