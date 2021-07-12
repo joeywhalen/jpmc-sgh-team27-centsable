@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import AuthApiService from '../../Services/APIService'
 export default class Signup extends Component {
   constructor(){
     super()
@@ -75,14 +75,14 @@ export default class Signup extends Component {
         <div className="box">
           <form className="register-form" onSubmit={this.handleSubmit}>
 
-            <label > Full Name: </label>
+            <label className="label"> Full Name: </label>
             <input value={this.state.fullname} type="text" name="fullname" className="landing-form-text" placeholder="Full Name" onChange={this.onChange}/>
 
 
-            <label > Username: </label>
+            <label className="label"> Username: </label>
             <input value={this.state.username} type="text" name="username"placeholder="youremail@email.com" className="landing-form-text" onChange={this.onChange}/>
 
-            <label> Password: </label>
+            <label className="label"> Password: </label>
             <input value={this.state.password} type="password" name="password" className="landing-form-text" onChange={this.onChange}/>
 
             <button className="btn" type="submit"> Submit </button>

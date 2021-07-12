@@ -1,3 +1,46 @@
+html {
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img {
+  max-width: 98rem;
+}
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+label, input, p {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+p {
+  text-align: center;
+}
+
+.main-text p {
+  align-content: center;
+  text-align: justify;
+  text-indent: 2em;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 98rem;
+  padding: 0 1.5rem;
+}
+
+.label {
+  display: inline-block;
+  margin: 10px;
+}
+
 .App {
   text-align: center;
 }
@@ -7,19 +50,29 @@
 .inner-container {
   transition: visibility 0.2s ease-out;
   border: 5px solid black;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
 }
 
 .inner-container .show {
   visibility: visible;
 }
 .box {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 5px;
   margin-bottom: 12px;
   margin-left: 35px;
   margin-right: 35px;
   font-size: 22px;
-  border: 5px solid black;
+  /* border: 5px solid black; */
+  background-color: #2948ff;
+  border-radius: 6px;
+  box-shadow: 0 0 10px 4px rgba(15, 15, 15, 0.2);
+
 }
 
 form .registerForm {
@@ -27,7 +80,8 @@ form .registerForm {
   margin: auto;
   padding: 0 10px;
   overflow: hidden;
-  box-shadow: 0 0 10px 4px rgba(15, 15, 15, 0.2);
+  align-content: center;
+  justify-content: center;
   border-top-right-radius: 6px;
   border: 5px solid black;
 }
@@ -35,11 +89,22 @@ form .registerForm {
 .landing-form-text {
   display: block;
   width: auto;
-  margin: 16px 0;
+
   border: 0;
   padding: 20px 40px;
   outline: none;
   color: black;
   transition: 0.5s;
   border-radius: 6px;
+  box-shadow: 0 0 10px 4px rgba(15, 15, 15, 0.2);
+
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-weight: 100;
+  align-self: center;
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
 }
