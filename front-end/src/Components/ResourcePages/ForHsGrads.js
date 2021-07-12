@@ -27,6 +27,18 @@ export default class ForHsGrads extends Component {
             <a href="https://www.nerdwallet.com/article/loans/student-loans/alternatives-to-college" target="_blank"> Read More...</a>
           </p>
         </div>
+
+        <h2> How To Balance A Checkbook In A Paperless World </h2>
+        <img src="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2020/07/getty_balance_checkbook_070120pm_jpg_ZTfDWAWm.jpg" alt="checkbook image"/> 
+        <div className="main-text">
+          <p> 
+           Back when receiving paper statements from your bank was the norm rather than an anomaly, taking the time to reconcile your checking account records with your statement each month was an <b> important part of keeping your finances healthy.  </b> 
+          </p>
+          <p>
+            <b>A traditional four-year college</b> seems like the default next step for high school graduates, whether or not they have a career in mind. But with rising tuition costs, ballooning student debt and plenty of good jobs that don’t require a bachelor’s degree, it’s worth exploring all your options before enrolling in classes or designing your dorm room.
+            <a href="https://www.forbes.com/advisor/banking/how-to-balance-a-checkbook/" target="_blank"> Read More...</a>
+          </p>
+        </div>
         
       </div>
     )
