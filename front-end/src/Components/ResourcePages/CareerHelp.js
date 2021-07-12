@@ -4,15 +4,15 @@ export default class CareerHelp extends Component {
   render() {
     return (
       <div className="container">
-        <h2> 8 Coding Bootcamps and Organizations That Are Helping To Close The Diversity Gap In Tech </h2>
-        <img src="https://recruitinguploadbucket.ripplematch.com/public/journal_images/27fc364b-main.jpeg?versionId=u9vxvoYpuI.Saovoy8bTxO6zXEBvjNE6" alt="women at computer image"/> 
+        <h2> 8 Finance-Related Careers Kids Should Know About </h2>
+        <img src="https://cdn.24.co.za/files/Cms/General/d/4613/4acee59bd06548eea9d8c5c686b078ac.jpg" alt="child with coins image"/> 
         <div className="main-text">
           <p> 
-            Coding bootcamps are generally accessible to varying levels of experience and are much more affordable compared to four-year institutions, <b> enabling a higher percentage of underrepresented communities to enroll.  </b> 
+            As you teach your child about money, the odds are good that you’ll talk about <b> specific financial tasks that a professional can help with.  </b> 
           </p>
           <p>
-            <b>Is a coding bootcamp right for me?</b> Students completing an online coding bootcamp can often balance learning with a full-time job or family, allowing a larger pool of people to get involved. On top of that, more and more coding bootcamps offer programs and scholarships specifically to support and uplift underrepresented groups.
-            <a href="https://ripplematch.com/journal/article/coding-bootcamps-that-are-helping-to-close-the-diversity-gap-in-tech-27fc364b/" target="_blank"> Read More...</a>
+            <b>These are excellent opportunities</b> to introduce your child to finance-related jobs.
+            <a href="https://www.udemy.com/course/programming-for-kids-how-to-make-coding-fun/" target="_blank"> Learn More...</a>
           </p>
         </div>
 
