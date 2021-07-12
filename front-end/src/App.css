@@ -4,15 +4,21 @@ html {
   background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+section {
+  padding: 0;
+}
 img {
-  max-width: 98rem;
+  max-width: auto;
+  max-height: auto ;
+  border-radius: 3px;
 }
 h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
   color: #fff;
+  text-decoration: underline solid darkblue;
 }
 
-label, input, p {
+label, input, p, a {
   font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
@@ -25,8 +31,9 @@ p {
   align-content: center;
   text-align: justify;
   text-indent: 2em;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: 15px;
+  font-size: 15px;
+  font-weight: lighter;
 }
 
 .container {
@@ -34,6 +41,19 @@ p {
   margin: 0 auto;
   max-width: 98rem;
   padding: 0 1.5rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.article-container {
+  margin: 10px;
+  padding: 0;
+  padding: 0;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 4px rgba(15, 15, 15, 0.2);
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .label {
@@ -67,7 +87,7 @@ p {
   margin-bottom: 12px;
   margin-left: 35px;
   margin-right: 35px;
-  font-size: 22px;
+  font-size: 20px;
   /* border: 5px solid black; */
   background-color: #2948ff;
   border-radius: 6px;
