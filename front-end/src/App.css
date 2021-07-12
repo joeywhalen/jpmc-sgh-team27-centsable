@@ -8,7 +8,8 @@ section {
   padding: 0;
 }
 img {
-  max-width: 98rem;
+  max-width: auto;
+  max-height: auto ;
   border-radius: 3px;
 }
 h1, h2, h3, h4, h5 {

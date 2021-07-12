@@ -1,7 +1,3 @@
-
-const url = "https://reactjs.org/docs/forms.html"
-
-
 export const AuthApiService = {
   //Create a new user
   createUser(user){
