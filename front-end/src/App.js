@@ -15,7 +15,7 @@ function App() {
       <MoneyManagement />
       {/* <CareerHelp /> */}
       {/* <ForHsGrads /> */}
-      {/* <ForKids /> */}
+      <ForKids />
     </div>
 
   );
