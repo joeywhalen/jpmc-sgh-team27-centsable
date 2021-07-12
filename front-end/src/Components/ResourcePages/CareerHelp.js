@@ -4,6 +4,7 @@ export default class CareerHelp extends Component {
   render() {
     return (
       <div className="container">
+        <section className="article-container">
         <h2> 8 Coding Bootcamps and Organizations That Are Helping To Close The Diversity Gap In Tech </h2>
         <img src="https://recruitinguploadbucket.ripplematch.com/public/journal_images/27fc364b-main.jpeg?versionId=u9vxvoYpuI.Saovoy8bTxO6zXEBvjNE6" alt="women at computer image"/> 
         <div className="main-text">
@@ -15,7 +16,9 @@ export default class CareerHelp extends Component {
             <a href="https://ripplematch.com/journal/article/coding-bootcamps-that-are-helping-to-close-the-diversity-gap-in-tech-27fc364b/" target="_blank"> Read More...</a>
           </p>
         </div>
+        </section>
 
+        <section className="article-container">
         <h2> 8 Finance-Related Careers Kids Should Know About </h2>
         <img src="https://cdn.24.co.za/files/Cms/General/d/4613/4acee59bd06548eea9d8c5c686b078ac.jpg" alt="child with coins image"/> 
         <div className="main-text">
@@ -27,7 +30,9 @@ export default class CareerHelp extends Component {
             <a href="https://www.udemy.com/course/programming-for-kids-how-to-make-coding-fun/" target="_blank"> Learn More...</a>
           </p>
         </div>
+        </section>
 
+        <section className="article-container">
         <h2> Programming for Kids - How to Make Coding Fun </h2>
         <img src="https://courseshunter.com/media/images/programming-for-kids-how-to-make-coding-fun.jpg" alt="child at computer image"/> 
         <div className="main-text">
@@ -39,7 +44,10 @@ export default class CareerHelp extends Component {
             <a href="https://www.udemy.com/course/programming-for-kids-how-to-make-coding-fun/" target="_blank"> Learn More...</a>
           </p>
         </div>
+        </section>
 
+
+        <section className="article-container">
         <h2> Learn Skills For Personal Branding </h2>
         <img src="https://blog.udemy.com/wp-content/uploads/2014/06/shutterstock_174590438.jpg" alt="whiteboard image"/> 
         <div className="main-text">
@@ -51,6 +59,7 @@ export default class CareerHelp extends Component {
             <a href="https://www.udemy.com/course/programming-for-kids-how-to-make-coding-fun/" target="_blank"> Learn More...</a>
           </p>
         </div>
+        </section>
         
       </div>
     )
